@@ -53,6 +53,6 @@ while cap.isOpened():
 # 자원 해제
 cap.release()
 out.release()
-cv2.destroyAllWindows()
+
 
 print(f"Detection result video saved at {output_video_path}")
