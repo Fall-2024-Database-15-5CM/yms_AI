@@ -30,6 +30,6 @@ weights_path = "/path/your/weights"
 ![두 번째 GIF](https://raw.githubusercontent.com/Fall-2024-Database-15-5CM/yms_AI/main/KakaoTalk_20241210_153224897.gif)
 
 ### 세 번째 GIF
-![세 번째 GIF](https://raw.githubusercontent.com/Fall-2024-Database-15-5CM/yms_AI/main/KakaoTalk_20241213_192002619.gif)
+![세 번째 GIF]([https://raw.githubusercontent.com/Fall-2024-Database-15-5CM/yms_AI/main/KakaoTalk_20241213_192002619.gif](https://github.com/Fall-2024-Database-15-5CM/yms_AI/blob/main/KakaoTalk_20241213_192002619.gif))
 
 
