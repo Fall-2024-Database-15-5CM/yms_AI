@@ -20,7 +20,7 @@ weights_path = "/path/your/weights"
 %cd /content/yolov5
 !python detect.py --source {source_path} --weights {weights_path}
 
-
+```
 # 프로젝트 GIF 데모
 
 ### 첫 번째 GIF
