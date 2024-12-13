@@ -29,7 +29,7 @@ weights_path = "/path/your/weights"
 - [단일 파일 다운로드 (Google Drive)](https://drive.google.com/uc?id=1EpDFMFex-mnv-P7Olgdrh5EKbkvkYiNU&export=download)
 
 ## 폴더 공유
-- [첫 번째 폴더 링크 (Google Drive)](https://drive.google.com/drive/folders/1-9WcQHl-xnoaSSdesc6cmm0tWACAQlmx?usp=drive_link)
-- [두 번째 폴더 링크 (Google Drive)](https://drive.google.com/drive/folders/1ajfvcztmxWaXNBUhNCE5yzqsP9L4AXDi?usp=drive_link)
+- [첫 번째 폴더(yms) 링크 (Google Drive)](https://drive.google.com/drive/folders/1-9WcQHl-xnoaSSdesc6cmm0tWACAQlmx?usp=drive_link)
+- [두 번째 폴더(번호판) 링크 (Google Drive)](https://drive.google.com/drive/folders/1ajfvcztmxWaXNBUhNCE5yzqsP9L4AXDi?usp=drive_link)
 
 
