@@ -8,7 +8,7 @@ model = torch.hub.load('ultralytics/yolov5', 'custom', path='/content/drive/MyDr
 # 동영상 파일 경로
 video_path = "/content/fall.mp4"
 output_video_path = "/content/license_plate_detected_video.mp4"
-
+detected_texts_path = "/content/detected_texts.txt"
 # 동영상 읽기
 cap = cv2.VideoCapture(video_path)
 
@@ -41,11 +41,14 @@ while cap.isOpened():
 
         # OCR 적용
         text = pytesseract.image_to_string(gray_plate_img, config='--psm 8')  # psm 8은 단일 라인 인식
-        print("Detected Plate Text:", text.strip())
-
+        if "CARGUY" in text.strip():
+            print("Detected Plate Text:", text.strip())
+            with open(detected_texts_path, 'a') as f:
+              f.write(text.strip() + "\n")
         # 원본 프레임에 bounding box와 OCR 결과 추가
-        cv2.rectangle(frame, (x_min, y_min), (x_max, y_max), (0, 255, 0), 2)  # bounding box
-        cv2.putText(frame, text.strip(), (x_min, y_min - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+            cv2.rectangle(frame, (x_min, y_min), (x_max, y_max), (0, 255, 0), 2)  # bounding box
+            cv2.putText(frame, text.strip(), (x_min, y_min - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+
 
     # 결과 프레임 저장
     out.write(frame)
